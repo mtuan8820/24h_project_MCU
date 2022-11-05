@@ -1,0 +1,23 @@
+/*
+ * button.h
+ *
+ *  Created on: Nov 5, 2022
+ *      Author: legolas
+ */
+
+#ifndef INC_BUTTON_H_
+#define INC_BUTTON_H_
+
+#define NORMAL_STATE GPIO_PIN_SET
+#define PRESSED_STATE GPIO_PIN_RESET
+
+#define NO_OF_BUTTONS 3
+
+extern int button_flag[NO_OF_BUTTONS];//flag for reset button
+
+int isButtonPressed3Sec(int index);
+void getKeyInput();
+void subKeyProcess(int index);
+
+
+#endif /* INC_BUTTON_H_ */

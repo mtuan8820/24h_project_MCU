@@ -1,0 +1,9 @@
+/*
+ * global.c
+ *
+ *  Created on: Nov 5, 2022
+ *      Author: legolas
+ */
+#include "global.h"
+int status=10;
+

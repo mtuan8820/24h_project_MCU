@@ -1,0 +1,25 @@
+/*
+ * global.h
+ *
+ *  Created on: Nov 5, 2022
+ *      Author: legolas
+ */
+
+#ifndef INC_GLOBAL_H_
+#define INC_GLOBAL_H_
+
+#define INIT 	10
+#define zero 	0
+#define one  	1
+#define two  	2
+#define three	3
+#define four	4
+#define five	5
+#define six		6
+#define seven	7
+#define	eight	8
+#define nine	9
+
+extern int status
+
+#endif /* INC_GLOBAL_H_ */

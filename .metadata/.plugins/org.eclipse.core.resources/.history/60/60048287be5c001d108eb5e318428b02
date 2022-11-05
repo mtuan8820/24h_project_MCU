@@ -1,0 +1,18 @@
+/*
+ * software_timer.h
+ *
+ *  Created on: Nov 5, 2022
+ *      Author: legolas
+ */
+
+#ifndef INC_SOFTWARE_TIMER_H_
+#define INC_SOFTWARE_TIMER_H_
+
+extern int timer1_flag;
+extern int timer1_counter;
+
+void setTimer1(int duration);
+void cleanTimer1();
+void timer1_run();
+
+#endif /* INC_SOFTWARE_TIMER_H_ */
